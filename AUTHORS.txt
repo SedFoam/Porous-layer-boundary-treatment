@@ -1,0 +1,10 @@
+AUTHORS
+
+ * Maxime Kaczmarek (LEGI UGA/GINP/CNRS UMR 5519 - Grenoble - France)
+   Maxime.Kaczmarek (A) univ-grenoble-alpes.fr
+ * Cyrille Bonamy (LEGI UGA/GINP/CNRS UMR 5519 - Grenoble - France)
+   Cyrille.Bonamy (A) univ-grenoble-alpes.fr
+ * Herve Michallet (LEGI UGA/GINP/CNRS UMR 5519 - Grenoble - France)
+   Herve.Michallet (A) univ-grenoble-alpes.fr
+ * Julien Chauchat (LEGI UGA/GINP/CNRS UMR 5519 - Grenoble - France)
+   Julien.Chauchat (A) univ-grenoble-alpes.fr

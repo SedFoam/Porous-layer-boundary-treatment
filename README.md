@@ -1,7 +1,7 @@
 Porous layer boundary treatment
 =========
 
-This repository contains the OpenFOAM numerical setups, libraries and python post-processing codes used in ADD LINK HERE. 
+This repository contains the OpenFOAM numerical setups and python post-processing codes used in the Coastal Engineering paper "Numerical study of swash dynamics: Development of a porous layer boundary treatment for rough surfaces modelling".
 
 
 What is this repository for?
@@ -11,15 +11,13 @@ What is this repository for?
 * Supported Python Versions : >= 3.13
 
 
-Installation of the roughWallFunctions library
+Download and Installation of the roughWallFunctions library
 -----------------------
 
 ```bash
 cd $FOAM_RUN
-git clone git@github.com:MaxKacz/Porous-layer-boundary-treatment.git
-cp -rf Porous-layer-boundary-treatment/wallFunctions $WM_PROJECT_USER_DIR/
-cd $WM_PROJECT_USER_DIR/wallFunctions/
-./Allwclean
+git clone --recurse-submodules https://github.com/sedfoam/Porous-layer-boundary-treatment
+cd Porous-layer-boundary-treatment/wallFunctions
 ./Allwmake
 ```
 
