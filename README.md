@@ -33,10 +33,15 @@ The '/Kikkert2012' folder contains the numerical setups for simulating the bore-
 The '/python' folder contains the post-processing codes used to generate the figures presented in the article.
 
 
+Acknowledgments
+---------------
+This work was made possible thanks to a Contrat Doctoral Spécifique Normalien thesis grant from ENS Paris-Saclay, was carried out within the framework of the Oxalia Chair, supported by the Fondation Grenoble INP thanks to the patronage of Artelia, and is affiliated with LEGI.
+The authors would like to thank Dr O'Donoghue for providing access to the experimental data reported by Kikkert et al. [2012].
+
+
 Bibliography
 ---------------
 * Fuhrman et al. [2010] : Fuhrman, D., M. Dixen, and N. Jacobsen, Physically-consistent wall boundary conditions for the k−ω turbulence model, Journal of Hydraulic Research, 48, 793–800, 2010.   
 * Kikkert et al. [2012] : Kikkert, G., T. O’Donoghue, D. Pokrajac, and N. Dodd, Experimental study of bore-driven swash hydrodynamics onimpermeable rough slopes, Coastal Engineering, 60, 2012.   
 * Wilcox [2006] : Wilcox, D., Turbulence modeling for cfd, third edition, DCW Industries, 2006.   
-
 
