@@ -24,7 +24,9 @@ cd Porous-layer-boundary-treatment/wallFunctions
 Usage
 ---------------
 
-swak4foam is required for running the numerical cases involving a porous layer. If you have difficulties installing swak4foam, we invite you to use the docker environment provided by sedfoam : https://sedfoam.github.io/sedfoam/howtodocker.html.
+swak4foam is required for running the numerical cases involving a porous layer. If you have difficulties installing swak4foam, we invite you to use the docker environment provided by sedfoam: https://sedfoam.github.io/sedfoam/howtodocker.html.
+
+The python package fluidfoam is required for running the post-processing codes for the Kikkert et al. [2012} experiments. Deployment instructions can be found here: https://fluidfoam.readthedocs.io/en/latest/.
 
 The 'roughWallFunctions' library, which contains the rough wall boundary condition introduced by Wilcox [2006] and revised by Fuhrman et al. [2010], is located in the /wallFunctions folder. This library is used as a reference in this work. See the section above for installation instructions.
 
