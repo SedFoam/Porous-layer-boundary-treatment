@@ -20,8 +20,9 @@ path_exp = "DATA/Depth-AveragedResults/"
 name_exp = "IMP_015_PIV"
 
 paths = [
-    "../../Kikkert2012/interIsoFoam/V2.1/3D_rug13_CP_lin_h=0.35xd50_h0=0.59_geomCorr/",
-    "../../Kikkert2012/interIsoFoam/V0.2.5/2D_rug13_CP_lin_h=0.35xd50/",
+    "../../Kikkert2012/PorousLayer_boundaryCondition/",
+    "../../Kikkert2012/PorousLayer_boundaryCondition_2D/",
+    #"../../Kikkert2012/Fuhrman2010_boundaryCondition/",
 ]
 
 nom_plots = [
@@ -34,7 +35,7 @@ postProcessFolder = "postProcessing"
 probe_names = ["sonde1", "sonde2", "sonde3", "sonde4", "sonde5", "sonde6"]
 timeStep = "mergeTime"
 
-sauvegarde = True
+sauvegarde = False
 titre_sauv = "surface_libre_2D_3D_rug13"
 
 slope = 1 / 10

@@ -25,13 +25,14 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
-path_exp = "Z:\\project\\meige\\2024\\24SWASH\\Maxime\\Données Kikkert\\Depth-Averaged Results\\"
+path_exp = "DATA/Depth-AveragedResults/"
 
 name_exp = ["IMP_015_PIV"]  # , 'PER_100_PIV'] #, 'IMP_060_PIV', 'IMP_100_PIV']
 
 paths_OF = [
-    "Z:\\project\\meige\\2024\\24SWASH\\Maxime\\OpenFOAM\\Simulation\\Kikkert2012\\interIsoFoam\\V2.1\\3D_rug13_CP_lin_h=0.35xd50_h0=0.59_geomCorr\\",
-    "Z:\\project\\meige\\2024\\24SWASH\\Maxime\\OpenFOAM\\Simulation\\Kikkert2012\\interIsoFoam\\V0.2.5\\2D_rug13_CP_lin_h=0.35xd50\\",
+    "../../Kikkert2012/PorousLayer_boundaryCondition/",
+    "../../Kikkert2012/PorousLayer_boundaryCondition_2D/",
+    #"../../Kikkert2012/Fuhrman2010_boundaryCondition/",
 ]
 
 nom_plots = ["XBeach V1 run02", "cas de référence 2D (interIsoFoam V0.2)"]

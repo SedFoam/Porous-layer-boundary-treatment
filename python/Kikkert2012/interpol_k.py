@@ -18,10 +18,11 @@ import netCDF4 as nc
 # Input data
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
-paths = [  #'Z:\\project\\meige\\2024\\24SWASH\\Maxime\\OpenFOAM\\Simulation\\Kikkert2012\\interIsoFoam\\V0.2.5\\2D_rug13_CP_lin_h=0.35xd50\\',
-    "Z:\\project\\meige\\2024\\24SWASH\\Maxime\\OpenFOAM\\Simulation\\Kikkert2012\\interIsoFoam\\V2.0\\3D_rug13_h0=0.59_geomCorr\\"
-]  # ,
-#'Z:\\project\\meige\\2024\\24SWASH\\Maxime\\OpenFOAM\\Simulation\\Kikkert2012\\interIsoFoam\\V2.1\\3D_rug13_CP_lin_h=0.35xd50_h0=0.59_geomCorr\\']
+paths = [ 
+    "../../Kikkert2012/PorousLayer_boundaryCondition/",
+    "../../Kikkert2012/PorousLayer_boundaryCondition_2D/",
+    "../../Kikkert2012/Fuhrman2010_boundaryCondition/",
+]
 
 postProcessFolder = "postProcessing"
 probe_names = ["sonde1", "sonde2", "sonde3", "sonde4", "sonde5", "sonde6"]
