@@ -18,7 +18,7 @@ from intersect import intersect
 # Input data
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
-path = "Z:\\project\\meige\\2024\\24SWASH\\Maxime\\OpenFOAM\\Simulation\\Kikkert2012\\interIsoFoam\\V2.1\\3D_rug13_CP_lin_h=0.35xd50_h0=0.59_geomCorr\\"
+path = "../../Kikkert2012/PorousLayer_boundaryCondition/"
 
 nom_plots = [
     "interIsoFoam Fuhrman (ref 2D) (interIsoFoam V0.2)",

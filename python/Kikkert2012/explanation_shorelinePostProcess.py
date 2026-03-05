@@ -18,11 +18,11 @@ from intersect import intersect
 # Input data
 dir_path = os.path.dirname(os.path.realpath(__file__))
 path_exp = (
-    "Z:\\project\\meige\\2024\\24SWASH\\Maxime\\Données Kikkert\\Shoreline Position\\"
+    "DATA/ShorelinePosition/"
 )
 name_exp = "ShorePos_IMP_015"
 
-path_exp2 = "Z:\\project\\meige\\2024\\24SWASH\\Maxime\\Données Kikkert\\Ensemble-Averaged Results\\"
+path_exp2 = "DATA/Ensemble-AveragedResults/"
 name_exp2 = "IMP"
 name_exp_size2 = "015"
 
